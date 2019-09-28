@@ -20,7 +20,7 @@ import colorsys
 import binascii
 
 try:
-    #raise ImportError
+    raise ImportError
     import Crypto
     from Crypto.Cipher import AES  # PyCrypto
 except ImportError:
